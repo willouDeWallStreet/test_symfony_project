@@ -80,3 +80,6 @@ composer require --dev doctrine/doctrine-fixtures-bundle
 php bin/console make:fix
 ```
 In this app, I called it : `UserFixture`
+
+Implement UserFixture file like [**that**](https://github
+.com/willouDeWallStreet/test_symfony_project/blob/master/src/DataFixtures/UserFixture.php).
