@@ -87,3 +87,9 @@ And to apply it :
 ```
 php bin/console doctrine:fixtures:load
 ```
+
+## Useful command while you develop
+To see all your routes 
+```
+php bin/console debug:router
+```
