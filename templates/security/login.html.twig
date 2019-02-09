@@ -3,7 +3,8 @@
 {% block title %}Login!{% endblock %}
 
 {% block body %}
-    <form class="form-signin container" method="post">
+    <form style="margin-top: 10%; margin-right: 25%; margin-left: 25%;" class="form-signin"
+          method="post">
         {% if error %}
             <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
         {% endif %}
