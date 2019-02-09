@@ -88,6 +88,11 @@ And to apply it :
 php bin/console doctrine:fixtures:load
 ```
 
+### Registration
+```
+php bin/console make:registration-form
+```
+
 ## Useful command while you develop
 To see all your routes 
 ```
