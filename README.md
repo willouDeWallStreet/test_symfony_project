@@ -79,7 +79,11 @@ Fixtures are used to load a "fake" set of data into a database that can then be 
 composer require --dev doctrine/doctrine-fixtures-bundle
 php bin/console make:fix
 ```
-In this app, I called it : `UserFixture`
+In this app, I called it : `UserFixture`.
 
-Implement UserFixture file like [**that**](https://github
-.com/willouDeWallStreet/test_symfony_project/blob/master/src/DataFixtures/UserFixture.php).
+Implement UserFixture file like **[that](https://github.com/willouDeWallStreet/test_symfony_project/blob/master/src/DataFixtures/UserFixture.php)**.
+
+And to apply it :
+```
+php bin/console doctrine:fixtures:load
+```
