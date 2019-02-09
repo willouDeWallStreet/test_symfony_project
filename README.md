@@ -2,7 +2,9 @@
 This is test of Symfony 4
 
 ## Start app
-`php bin/console server:run`
+```
+php bin/console server:run
+```
 
 ## Clone & install a Symfony app from Github
 ```
@@ -13,7 +15,9 @@ composer install
 
 ## Code
 ### Create an entity
-`php bin/console make:entity`
+```
+php bin/console make:entity
+```
 
 -> User
 
@@ -24,7 +28,9 @@ composer install
 ...
 
 ### Connect app to DB (MySQL) 
-`composer require doctrine maker`
+```
+composer require doctrine maker
+```
 
 and 
 
@@ -63,6 +69,7 @@ And go to : config/packages/doctrine.yaml
 
 ### Create an entity table in your DB
 
-`php bin/console doctrine:migrations:diff`
-
-`php bin/console doctrine:migrations:migrate`
+```
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:migrations:migrate
+```
