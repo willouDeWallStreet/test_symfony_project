@@ -5,15 +5,23 @@ This is test of Symfony 4
 `php bin/console server:run`
 
 ## Clone & install a Symfony app from Github
-`git clone ...`
-
-`cd my-project`
-
-`composer install`
+```
+git clone ...
+cd my-project
+composer install
+```
 
 ## Code
 ### Create an entity
+`php bin/console make:entity`
 
+-> User
+
+(add fields to this entity class)
+
+-> username 
+
+...
 
 ### Connect app to DB (MySQL) 
 `composer require doctrine maker`
@@ -53,7 +61,7 @@ And go to : config/packages/doctrine.yaml
                 #collate: utf8mb4_unicode_ci           
             #url: '%env(resolve:DATABASE_URL)%'
 
-### Create an entity table
+### Create an entity table in your DB
 
 `php bin/console doctrine:migrations:diff`
 
